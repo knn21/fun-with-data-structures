@@ -45,6 +45,30 @@ ENDFUNCTION
 ## 2021 A Level P1 Q7
 *Solution:*
 
+a) (https://github.com/user-attachments/assets/46da8c36-ce65-4b29-af97-b6bfb3f4fe1f)
+
+b) Inserted Eric (7) 
+
+Logic: 
+E < L go left
+E > B go right
+E > D go right
+D.right = NULL
+Insert to right of D
+
+c) Pseudocode: recursive inorder on names 
+note: procedure doesn’t return, procedure outputs
+
+```
+PROCEDURE inorder(Root)
+    IF Root is not NULL
+        inorder( Names[ Root ].LPtr )
+        OUTPUT( Names[ Root ].data )
+        inorder( Names[ Root ].RPtr )
+    ENDIF
+ENDPROCEDURE
+```
+
 ## 2020 A Level P1 Q3
 *Solution:*
 
