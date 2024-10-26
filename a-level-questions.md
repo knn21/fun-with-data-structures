@@ -39,18 +39,6 @@ ENDFUNCTION
 ## 2021 A Level P1 Q4
 *Solution:*
 
-a) dynamic memory allocation is more flexible than static memory allocation. 
-For static data structure, a fixed amount of memory is reserved for data even though less memory may be needed during runtime. For dynamic data structures, the person implementing the data structure can easily expand or contact the memory space as needed by the programme 
-
-b) Problems of dynamic data struct
-Inserting/ deleting will require memory allocation/ deallocation which may lead to longer runtimes or slower performance 
-dynamic data structures can potentially use up all of the memory on the system/ device causing programs that require memory to not work (contrasts with static memory allocation which only can use memory that has been allocated)
-
-c) array
-no chance of memory overflow 
-availability of binary search as a way to look up entires within the system
-
-
 ## 2021 A Level P1 Q5
 *Solution:*
 
