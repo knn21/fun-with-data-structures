@@ -36,6 +36,29 @@ ENDFUNCTION
 ## 2022 A Level P1 Q8
 *Solution:*
 
+a) Average case time complexity for binary search is logarithmic O(logn), Linear search is linear O(n) but assuming an efficient hashing algorithm has table search will have constant time complexity of O(1) which is more efficient than both linear and binary search 
+
+b) A hashing algorithm calculates address where new entry is to be stored
+if the location is empty , the data is inserted
+if the location is not empty, a collision has occurred 
+
+c) 2 Methods choose 1
+CLOSED ADDRESSING
+If collision occurs, the data is not stored in the position it is hashed to. Instead, another location is assigned for it to be inserted.
+eg. Linear probing: record gets inserted into next adjacent cell
+Quadratic probing: record gets inserted i**2 cells away (prevents clustering)
+
+OPEN ADDRESSING
+The data is always stored in the same position it is hashed to. Some other forms of data structure are usually used to store all the data
+at the calculated position(bucket). Hence, the index in the bucket where the data
+is stored should be located.
+eg. LinkedList to store collided/overflow entries
+
+d) 3 features of good hash algorithm
+● Should use all parts of the input data.
+● Generate very different hash values for a small change in the input data.
+● Hash values it generates should be uniformly distributed across the entire range of possible hash values (to minimise collisions).
+
 ## 2021 A Level P1 Q4
 *Solution:*
 
