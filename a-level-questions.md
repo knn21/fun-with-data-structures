@@ -48,6 +48,59 @@ ENDFUNCTION
 ## 2020 A Level P1 Q3
 *Solution:*
 
+a) (https://github.com/user-attachments/assets/0be35e78-5959-4893-be88-cc32dc8157eb)
+
+b) 0 or 2 or 4 or 6 (any 1)
+
+c) 
+(i) 
+● Function that is defined in terms of itself. / calls itself during runtime 
+● Calls itself with one or more similar but smaller subproblems.
+● Repeats itself several times and with each recursive call, the problem is brought closer to the
+base case.
+● Once the terminating case/ base case is reached, it stops calling more functions. A base case or terminating case is the smallest problem that can be solved trivially.
+
+(ii)  03, 06
+
+(iii)  To check if a leaf node is reached 
+
+d)  Trace Table 
+
+Index | Output 
+--------------
+0     | A
+--------------
+2     | B
+--------------
+1     | +
+--------------
+4     | C
+--------------
+6     | D
+--------------
+5     | -
+--------------
+3     | *
+--------------
+
+e) 
+● Call stack is used to keep track of recursive calls.
+● When a recursive call is made, the return address at which the function is called and current contents of the local variables are stored on the stack as a stack frame.
+● Each recursive call will push another stack frame to the stack until the base case is reached.
+● Once the base case is reached, the main will return to the caller of the function by popping off the stack frame, restoring the return address and contents of the local variables of the caller.
+● The process of popping off the stack frame will continue until the control is back to the first caller to the function.
+
+f) postorder
+
+g) Queue is a linear data structure that follows the First In First Out (FIFO) principle.
+First element that is added to the queue is also the first one to be removed from the queue.
+Queue preserves order of data
+
+h)
+- Circular queue has fixed size that can be reused but linear queue with fixed array implementation will keep decreasing in size due to previously dequeued memory locations 
+
+ -Linear queue has fixed start and ending indexes but circular queue wraps around with tail connected back to the start
+ 
 ---
 # Practical
 ## 2024 A Level P2 Task 2
